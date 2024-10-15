@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Pomodoro - The Task Timer</title>
+        <link rel = "icon" type="image" href="https://image.shutterstock.com/image-vector/passage-time-icon-260nw-551661892.jpg">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <h1 class="title">Pomodoro Timer</h1>
+            <hr>
+            <p class="timer" id="timer">25:00</p>
+    
+            <!-- Task input -->
+            <label for="task">Task Description:</label>
+            <input type="text" id="task" placeholder="What are you working on?">
+    
+            <!-- Buttons -->
+            <div class="button-wrapper">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+    
+            <!-- Task log -->
+            <h2>Task Log</h2>
+            <ul id="task-log"></ul>
+        </div>
+    
+        <script src="./Script.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    </body>
+</html>
