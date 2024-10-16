@@ -4,18 +4,28 @@ Welcome to Pomodoro - The Task Timer! 🎯 This tool is designed to help you mai
 
 
 🌟 Features -
+
 ⏱️ 25-Minute Timer: Focused work sessions followed by short breaks.
+
 📝 Task Logging: Keep track of your tasks, including the time spent on each task.
+
 📊 Export Tasks to Excel: Download your task log as an Excel sheet for later review.
+
 🎨 Simple & Clean UI: A minimalistic and user-friendly interface to help you stay focused.
+
 📱 Responsive Design: Fully responsive, so you can use it on both desktop and mobile devices.
 
 
+
+
+
 🔧 Technologies Used -
-- HTML5: For structuring the content of the web app.
-- CSS3: For styling the user interface and creating a responsive design.
-- JavaScript: For timer functionality, task tracking, and exporting data.
-- SheetJS: For exporting task logs to an Excel file.
+1. HTML5: For structuring the content of the web app.
+2. CSS3: For styling the user interface and creating a responsive design.
+3. JavaScript: For timer functionality, task tracking, and exporting data.
+4. SheetJS: For exporting task logs to an Excel file.
+
+   
 
 
 🚀 How to Use -
@@ -28,13 +38,17 @@ Welcome to Pomodoro - The Task Timer! 🎯 This tool is designed to help you mai
 📂 Project Structure -
 📦 pomodoro-task-timer
 ├── 📄 index.html         # Main HTML file
+
 ├── 📄 style.css          # Styles for the UI
+
 ├── 📄 script.js          # JavaScript logic for the timer and task logging
+
 └── 📄 README.md          # Documentation (This file)
 
 
 🔗 Live Demo
 Click here to see it in action! 🎉
+
 https://priyankathotkar.github.io/Pomodoro-The-Task-Timer/Index.html
 
 Made with ❤️, ☕, and a lot of Pomodoros! 😊
